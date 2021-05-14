@@ -1,0 +1,32 @@
+DEFINITION :
+Binding data and code together keeping the data safe from outside environment.
+
+How we can achieve : 
+By making all members private and access using public modifiers such as Getter and Setter methods.
+
+ENCAPSULATION: Data hiding + Abstraction.
+
+TERMS :
+1)Setter method - 1)Used for updating the values
+                  2)Also called Mutator method
+2)Getter method - 1)Used for returing the values
+                  2)Also called Accessor method
+ 
+ Example of Encapsulated class: Java Bean class
+ 
+ WHY ENCAPSULATION :
+ It helps for data hiding, protection and increase security.
+ 
+ DISADVANTAGES:
+ Lengthy codes and slow execution.
+                  
+ REAL LIFE EXAMPLES :
+ 1)When we login into gmail accounts a lot of internal process will going on and we have no control over it.
+ Only access public modifier that is visible that is login and password. 
+ After entering details into login and password some internal functionals occurs that is not visible and no control over it.
+ Thus gmail keeps your account safe from others.
+ 
+ 2)Working of AC in which all functions are private and we can access only public modifier ie remote to change the temperature of AC.
+ 
+  
+                  
