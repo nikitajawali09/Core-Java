@@ -1,0 +1,14 @@
+A package is a physical folder structure that contains a group of classes & interfaces & sub-packages.
+
+REALTIME EXAMPLES:
+When you download a movie,song or games you make a different folder for each category.
+_________________________________________________________________________________________________________________________________
+ADVANTAGES :
+1)Maintenance
+2)Reusability
+3)Access Control
+4)Organized
+____________________________________________________________________________________________________________________________________
+Types of Packages:
+1)User-defined packages
+2)Predefined packages
