@@ -1,0 +1,49 @@
+Inheritance Definition:
+Inheritance in java means acquiring properties of superclass to subclass.
+Inheritance is done by using word 'extends'
+By using inheritance subclass can access all properties of superclass .
+_________________________________________________________________________________________________________________________________________________________________________________________________________
+Why Inheritance:
+If we want to work with existing files or want to work on new projects by using existing file
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Uses of Inheritance:
+1)Resuablity
+2)Reduce reductancy
+3)For changing existing behaviour of the code
+_________________________________________________________________________________________________________________________________________________________________________________________________________________
+Types of Relationship:
+
+1)IS-A : 1)Blood relation
+         2)Refers to inheritance
+         3)Uses extends keyword
+        
+2)HAS-A : 1)No Blood relation
+          2)Uses new keyword
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Super/Parent/Base class- A class from which another class inherit all properties.
+Sub/Child/Derived class- A class which inherits all properties from superclass.
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Types of inheritance:
+
+1)Single inheritance :When a class extends only one class.
+
+
+2)Multiple inheritance :When class inherit the derived class they making the derived class as base class to new class.
+
+
+3)Multilevel inheritance :In this one sub class has many supeclass but this is not supported in java.
+                          This is not supported in java have same method name and signature because of ambiguity problem
+                          This problem can be solved by making one class interface
+
+
+4)Hierarchial inheritance:One class is inherited by many class.
+
+5)Hybrid inheritance:It is a combination of single and multiple inheritance.
+
+_______________________________________________________________________________________________________________________________________________________________________________________________
+Real time examples :
+Child access some properties of Parents and have their own property as well.
+
+
+
+
