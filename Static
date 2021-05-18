@@ -1,0 +1,30 @@
+STATIC VARIABLES|METHODS PROPERTIES :-
+
+Use to share common attribures or behaviours of a class.
+They belong to class rather than object of the class.
+Only one copy per class.
+One time memory allocation.
+Use of this() and super() keyword is not allowed.
+They get bound in CE and stored in heap memory.
+They use for initalization of static variables.
+This static variables/methods no need to create object as they access using class name.
+They gets memory and load at the time of class loading ie(.class) file.
+______________________________________________________________________________________________________________________________________________________________________
+3 STATIC :
+1)Static block
+2)Static variable
+3)Static method
+_______________________________________________________________________________________________________________________________________________________________________
+Static block:
+Special block
+It is used to initilize the values.
+They will excecute first in Java class.
+We can have multiple static blocks and execution will be from top to bottom.
+________________________________________________________________________________________________________________________________________________________________________
+Types of Blocks
+1)Local Block
+2)Instance Block
+3)Static Block
+_______________________________________________________________________________________________________________________________________________________________________
+Method Hiding
+They define a child class as static method with same signature as a static method to parent class thus child class hides method of parent class.
