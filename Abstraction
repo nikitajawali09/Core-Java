@@ -1,0 +1,42 @@
+Abstraction:
+Hiding the complexities and showing only neccesary functionalities.
+It only shows setup services that they are offered.
+Non-access modifier.
+______________________________________________________________________________________________________________
+Properties:
+1)Hiding is achieved by making class and methods abstract.
+2)A abstract class may be blank.
+3)If a regular class extends abstract class then it has to implement all unimplemented methods.
+4)Instance of abstract class cannot be created.
+5)If a method is abstract then class need to abstract but vice versa is not neccesary.
+6)Abstract class contains concrete methods.
+7)Inside the abstract class we cannot create private and final abstract methods.
+8)Abstract methods cannot be static.
+9)Abstract class can have constructors.
+________________________________________________________________________________________________________________
+Why abstraction ?
+1)Sometimes method is not ready to show
+2)They don't want to show methods implementation to others
+________________________________________________________________________________________________________________
+
+         Abstraction                                vs                     Encapsulation
+ 
+1)Outer layout is used in terms of                                 1)Inner layout is used in terms of design.
+  design.
+2)Abstraction is done to hide the details                          2)Encapsulation is done for data protection and
+  to reduce code complexity.                                         security.
+3)Abstraction is done by making variables                          3)Encapsulation is done by making members private 
+  and methods abstract.                                              and access using public modifier.
+4)Hides implementation                                             4)Hides data
+5)Objects can't be created.                                        5)Objects can be created.
+_________________________________________________________________________________________________________________________
+        Abstraction                                 vs                     Interface
+  1)May contain concrete methods                                   1)Never contain concrete methods
+  2)Partially abstraction                                          2)Fully abstraction
+  3)No Multiple inheritance                                        3)Multiple inheritance
+  4)Regular class extends abstract class                           4)Regular class implements interface
+  5)Abstract method can't be static                                5)Interface method can be static
+  
+  _________________________________________________________________________________________________________________________
+  Real time examples
+  1)ATM Machine
