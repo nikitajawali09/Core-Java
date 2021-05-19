@@ -1,0 +1,26 @@
+Interface
+Interface in java is a collection of abstract class and final fields.
+
+Why interface 
+1)To achieve multiple Inheritance.
+2)To have fully abstracted class.
+_______________________________________________________________________________________________________________________________________________________
+Properties:
+1)Interface is used to achieve dynamic binding during runtime.
+2)Interface is a IS-A relationship.
+3)Interface cannot have constructors.
+4)Interface methods are by default public abstract and variables are by default public static final.
+5)We cannot create object of interface.
+6)Interface can implement more than one class.
+7)Every Interface is bydefault abstract.
+8)We cannot reduce visiblity of an interface while overriding the methods.
+
+____________________________________________________________________________________________________________________________________________________
+
+Types of Interface
+
+1)Functional Interface : It contains only one method signature.
+2)Nested Interface : Interface within another interface 
+3)Extended Interface:One interface is extended by another interface
+4)Marker Interface:It does not have any body ie only method signature and variable but has special privileges over other methods
+    Types - 1)Cloneable Interface   2)Serialization Interface.
