@@ -1,0 +1,8 @@
+Definition:-
+An array is an object that holds a fixed number of values of homogenous or similar data types.
+Properties:-
+Length of an array is fixed.
+Index of array is from 0th index .
+g 1)int a[]=new int[7];
+   2)String[]a; ----Declaration
+   3)int[]b; ----Declaration
