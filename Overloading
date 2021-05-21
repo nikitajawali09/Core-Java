@@ -1,0 +1,28 @@
+It is also called method Overloading
+In a class we have same method name with different parameters is called method overloading.
+Either one or more parameters should be differents.
+If a return type is different and have same method name and parameters then it will not consider as method overloading.
+______________________________________________________________________________________________________________________________________________________________
+
+When we use:
+When we want same method name but data types should be different that time method overloading is used.
+______________________________________________________________________________________________________________________________________________________________
+Features:
+More readable and flexibility.
+_____________________________________________________________________________________________________________________________________________________________
+
+                                  Overloading                           vs                          Overriding
+                                  
+                          Same method name but different                                 Same method name and same
+                          parameters                                                     parameters
+                          _________________________________________________________________________________________________________
+                          Also called                                                    Also called 
+                          compile time polymorphism                                      runtime polymorphism
+                          ______________________________________________________________________________________________________
+                          Return type and scope doesn't matter                           Return type and scope matters
+                          ____________________________________________________________________________________________________
+                          Happens within a same class or subclass                        Only happens in subclass
+                          ______________________________________________________________________________________________________
+                          Performance is good                                            Performance is bad
+                          ______________________________________________________________________________________________________
+                          Static binding is used for overloading                         Dynamic binding is used for overriding
