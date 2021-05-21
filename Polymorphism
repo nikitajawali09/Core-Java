@@ -1,0 +1,21 @@
+Polymorphism
+Polymorphism in java means many forms ie a similar type of actions can be perform in many ways.
+Applies to Overriding.
+__________________________________________________________________________________________________________________________________________________________
+Two types of polymorphism:
+1)Compile-Time polymorphism:- It is a type of polymorphism in which call to overload methods are determined at complile time rather than runtime.
+Also called method Overloading or Constructor Overloading or Method Hiding.
+2)Run-Time polymorphism:- It is a type of polymorphism in which call to overrided methods are determined at runtime.
+Also called method overriding or dynamic method dispatch.
+____________________________________________________________________________________________________________________________________________________________
+Uses for:-
+1)Code reusablity & flexibility
+2)Dynamic code and effective code
+_______________________________________________________________________________________________________________________________________________________________
+Real time Examples:
+1)A man in office is a employee , at home for his son is father and at shopping he is a customer.
+2)If a liquid is kept in refrigerator its become solid and if that water is kept at gas it will convert into gas.
+______________________________________________________________________________________________________________________________________________________________
+Types of Binding:
+1)Static Binding - Also called Early Binding
+2)Dynamic Binding - Also called Late Binding
