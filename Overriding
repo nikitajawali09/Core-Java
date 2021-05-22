@@ -1,0 +1,16 @@
+Definition:
+When the method of superclass is overriden in subclass providing same method name and parameters is called method overriding.
+Overriding methods can throw only checked exception.
+_____________________________________________________________________________________________________________________________________________
+Rules of overriding:
+1)Method name and parameters should be same.
+2)Child class method should have more or equal visiblity as compared to Parent class.
+3)Private and Final methods cannot be overriden.
+4)Must be in IS-A relationship.
+5)We cannot override static methods.
+6)Must follow all exception rules while overriding the methods.
+___________________________________________________________________________________________________________________________________________________
+Why overriding ?
+1)Code resubility
+2)To change the existing behaviour of superclass method
+3)To change the functionality.
