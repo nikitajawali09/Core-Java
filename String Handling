@@ -1,0 +1,52 @@
+It is a object that represents sequence of characters.
+eg "Penwal"
+String class is used to create a string object & it is an immutable class that is present in java.lang.package.
+Memory in java is divided into three parts such as heap, stack and string constant pool.
+____________________________________________________________________________________________________________________________________________________________
+
+Ways to create string in java:-
+1)By string literal
+String s="Hello";
+Always created in SCP 
+2)By new keyword
+String s=new String("Hello");
+3)By converting character arrays into strings.
+char a[]={'j','a','v'};
+String s=new String(a);
+
+_______________________________________________________________________________________________________________________________________________________________
+String is Immutable in java ?
+
+1)Yes
+2)Immutable means unchangeable and unmodifiable .
+3)Once we create a string object with value you are not allowed to perform any changes in that objects.
+eg String s="hello"
+s.conact("world")
+its will create two different object in class and executing always done in runtime hence it is created in heap.
+In heap world is not assigned by any refrence hence it will consider as garbage value thus it is removed from the memory.
+_________________________________________________________________________________________________________________________________________________________________
+
+METHODS:-
+
+1)length() - Returns the length of string.
+2)charAt() - Returns the character of specified index.
+3)indexOf() - Returns the position of first occurance of the occurance.
+4)lastIndexOf() - Returns the position of last occurance of the index.
+5)trim() - Removes the white spaces of the index.
+6)toLowerCase() - Convert the string into lower case.
+7)toUpperCase() - Convert the string into upper case.
+8)intern() - Returns the interned string.
+9)compareTo() - Compares the two string equal or not.
+10)compareToIgnoreCase() - Compares the two string equal or not with ingnore case.
+11)concat() - Returns the concated string.
+12)equals() - Check whether two string is equal or not.
+13)equalsIgnoreCase() - Check whether two string is equal or not with  ingnore case.
+14)getBytes()- Returns the string into byte form.
+15)splits() - Splits the string into array.
+16)endsWidth() - Return whether string ends with specific word.
+17)startsWidth() - Return whether string starts with specific word.
+18)getChar() - Convert into specific array.
+19)isEmpty() - Check if the string os empty or not.
+20) join()- Return the joined string 
+21)replaceAll()- Returns a string replacing all the sequence of characters.
+________________________________________________________________________________________________________________________________________________________________________________
