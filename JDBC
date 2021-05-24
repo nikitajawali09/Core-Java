@@ -1,0 +1,47 @@
+JDBC is used in API in enterprise applications
+It is used to provide a connectivity between java applications and database servers.
+_____________________________________________________________________________________________________
+STEPS :-
+1)import the package
+  import java.sql.*;
+2)Load/Register the Driver class
+  Class.ForName("Driver Manager path");
+3)Creating connection
+  Connection con=DriverManager.getConnection("path/db","username","password");
+4)Create Query
+  1)Statement:-
+    1)It is used when when have to deal with static queries.
+    2)No user defined values can be taken.
+    3)It's get complied everytime hence performance is low.
+    4)It is used when we have to write query only once.
+    5)No protection form SQL Injection.
+    
+  2)Prepared Statement:-
+    1)It is used when when have to deal with dynamic queries.
+    2)User defined values can be taken.
+    3)It's get complied only once hence performance is high.
+    4)It is used when we have to write query multiple times.
+    5)Protection form SQL Injection.
+    
+  3)Collable Statement:-
+    It is used when we have to write PL/SQL queries
+    
+5)Exceute Query
+   1)executeUpdate() :- It executes and runs your query
+                        Return type --> int
+                        It returns the number of rows and columns affected
+                        It is used when we are dealing with DML.
+
+   
+   2)executeQuery() :-  It has a power to store whole data in it.
+                        Return type --> ResultSet
+                        It returns the data that is store in resultSet
+                        It is used when we are dealing with DQL.
+                        
+   
+   3)exeute() :- It will tell whether the query is executed or not
+                 Return type- Boolean
+    
+  
+  6) Closing the Environment :- It is used to close all the connections to prevent leakages.
+  
