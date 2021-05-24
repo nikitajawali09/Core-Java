@@ -1,0 +1,42 @@
+A class which is declared inside another class is called Inner class.
+_________________________________________________________________________________________________________________________________________
+
+Why Inner class?
+1)Because it holds the property of encapsulation.
+2)Control visibility.
+3)Can access private data and members inside class.
+4)It increases readability of the code.
+____________________________________________________________________________________________________________________________________________
+Realtime examples of inner class
+1)A car and an engine.
+2)College and Departments.
+_____________________________________________________________________________________________________________________________________________
+Types of Inner class:-
+
+1)Local inner class :- A class inside another class is called inner class
+
+2)Static inner class :- A static class inside normal class .
+Properties:
+1)Inside static class we can have both static and non-static methods.
+2)Inside static class of static methods can we only access static methods and variable of outer class.
+3)Inside static class we can have main method.
+4)We don't need to create objects of static class as they can access by using class name.
+5)We can access private static member of the outer class directly to static inner class.
+6)Nested class can either be named or anomoymous.
+
+3)Anomynous inner class:- A class which does not have any name is called anomynous inner class.
+Propeties:- 
+1)We can create only one object using this class
+2)It is used in GUI based applications.
+3)Types: 1)Class 2)Interface
+4)It  cannot have constructor
+5)It is used for short body code.
+
+4)Method local inner class:-
+A class inside method is called method local class.
+
+Properties:
+1)From jdk 1.8 we can access final variables
+2)Local inner class cannot accessed outside the methof.
+3)Method local inner class can be created inside constructor,methods and static initializers.
+4)We cannot use any access modifiers.
