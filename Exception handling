@@ -1,0 +1,59 @@
+Exception :- It is an abnormal condition that happens during runtime and it stops normal exceuting of the programs or end abnormally.
+Exception Handling :- Exceptional handling means handling the exceptions that happens at runntime so that program should not stop normal excecution of the program.
+All exceptions that happens during runtime.
+If they is no exceptional handler then JVM gives exception to default exception handler.
+When JVM faces exception like dividing the number by zero then it creates an exception object & throw it to inform us that exception is occured.
+__________________________________________________________________________________________________________________________________________________________________
+RULES OF EXCEPTION :-
+1)If a superclass overridden method doesn't throw an exception then child class can throw only unchecked exceptions.
+2)If a superclass overridden method throws an exception then child class can throw same exception or subclass exception but can't throw parent exception.
+3)If a superclass overridden method throws an exception then child class may or may not throw an exception.
+______________________________________________________________________________________________________________________________________________________________________
+REAL TIME EXAMPLES :-
+If you watching a movie on YouTube and suddently if your wifi is not working or data pack is completed then you cannot able to watch movie.
+____________________________________________________________________________________________________________________________________________________________________
+METHODS OF EXCEPTIONS :-
+1)printStackTrace() : Returns the exception name , stack trace and message.
+2)toString() : Returns the message and exception name.
+3)getMessage() : Returns the message
+4)getClause() : Returns the cause of exception
+________________________________________________________________________________________________________________________________________________________________________
+HOW TO HANDLE EXCEPTIONS :-
+1)try block : We are suppose to write risky code in which an exception may occur.
+2)catch block : Catch block is used to catch the exceptions that happened in try block and it is used to write some messages if exception is occured.
+3)finally : Finally block is used to close the connection , clean up code and close the files.
+4)throw : If we want to throw an exception manually or explicity then throw is used.
+5)throws : It is used to throw an exception by exception name instead of using try-catch block.
+_______________________________________________________________________________________________________________________________________________________________________
+TYPES OF EXCEPTIONS :
+1)Checked exceptions:
+They can be handled during compile time.
+Checked exception extends Exception.
+It happens when there is high change of failure rate.
+eg
+IOException,CloneNotSupportException,InterruptedException,SQLException,FileNotFoundException.
+
+
+2)Unchecked exception:
+They can be handled during runtime.
+Unchecked exception extends Runtime Exception.
+It happens due to programmer mistake.
+eg
+InputMismatchException,ArrayIndexOutofBoundException,NullpointerException,ClassCastException,ArithemeticException.
+__________________________________________________________________________________________________________________________________________________________________________
+
+                                                    throw                   vs                                throws
+                                                    
+                       throw extends Runtime Exception                                                 throws extends Exception                              
+                       throw used for unchecked exception                                              throws used for checked exception
+                       throw is followed by new instance                                               throws is followed by method name
+                       After throw we cannot write any                                                 No such rules.
+                       statement.
+                       It declares within the body                                                     It declares with method name
+                       Can throw only single exception                                                 Can throw multiple exceptions
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+
